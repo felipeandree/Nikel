@@ -36,6 +36,8 @@ document.getElementById("transaction-form").addEventListener("submit", function(
 
 });
 
+checkedLogged();
+
 function checkedLogged() {
     if (session) {
         sessionStorage.setItem("logged", session);
